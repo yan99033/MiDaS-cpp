@@ -32,7 +32,7 @@ As some of you may have a different OpenCV version, we will let you (build and) 
 
 
 ## Convert the pre-trained model to Torch Script
-Please see the [python](https://github.com/yan99033/MiDaS-cpp/tree/master/python) folder for further instructions.
+Please see the [python](https://github.com/yan99033/MiDaS-cpp/tree/main/python) folder for further instructions.
 
 
 ## Build the project
