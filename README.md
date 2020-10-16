@@ -6,9 +6,9 @@
 </p>
 
 PyTorch C++ implementation of MiDaS for single-image relative depth prediction. Relative depth prediction, in general, provides more accurate depth prediction in various scene types by forgoing absolute depth scale, compared to absolute depth prediction (e.g., [monodepth](https://github.com/yan99033/monodepth-cpp)).
-For more information, please visit the [repo](https://github.com/intel-isl/MiDaS). The original work is implemented in Python.
+For more information, please visit the [original work](https://github.com/intel-isl/MiDaS), which is implemented in Python.
 
-The C++ implementation is especially useful for researchers who are working on robotics problem. Tested on Ubuntu 20.04 with an Intel i7 processor and an Nvidia 1070 graphics card.
+The C++ implementation is especially useful for researchers who are working on robotics problems. Tested on Ubuntu 20.04 with an Intel i7 processor and an Nvidia 1070 graphics card.
 
 
 ## Tested environment
