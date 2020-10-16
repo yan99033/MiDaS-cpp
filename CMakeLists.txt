@@ -33,11 +33,11 @@ TARGET_LINK_LIBRARIES(${PROJECT_NAME}_inference ${PROJECT_NAME}_lib)
 
 ##### Uncomment this section for a Boost.Python project ##############################
 ## Without this, any build libraries automatically have names "lib{x}.so"
-set(CMAKE_SHARED_MODULE_PREFIX "")
+# set(CMAKE_SHARED_MODULE_PREFIX "")
 
-ADD_LIBRARY(midas MODULE module/midas.cpp)
-TARGET_LINK_LIBRARIES(midas ${PROJECT_NAME}_lib)
-SET_TARGET_PROPERTIES(midas PROPERTIES
-LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/python
-)
+# ADD_LIBRARY(midas MODULE module/midas.cpp)
+# TARGET_LINK_LIBRARIES(midas ${PROJECT_NAME}_lib)
+# SET_TARGET_PROPERTIES(midas PROPERTIES
+# LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/python
+# )
 #######################################################################################
