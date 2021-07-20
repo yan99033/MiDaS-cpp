@@ -17,7 +17,7 @@ The C++ implementation is especially useful for researchers who are working on r
 
 [(Paper) DeepRelativeFusion: Dense Monocular SLAM using Single-Image Relative Depth Prediction](https://arxiv.org/abs/2006.04047)
 
-[![Watch the video](https://www.youtube.com/watch?v=sFuSNKESjzs/hqdefault.jpg)](https://www.youtube.com/watch?v=sFuSNKESjzs)
+[![Watch the video](http://i1.ytimg.com/vi/sFuSNKESjzs/hqdefault.jpg)](https://www.youtube.com/watch?v=sFuSNKESjzs)
 
 ## Tested environment
 - Ubuntu 20.04
