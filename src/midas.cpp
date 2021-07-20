@@ -76,9 +76,9 @@ np::ndarray MiDas::inference(const np::ndarray &image)
     cv::resize(output_mat, output_cv_, original_size_);
 
     // Convert to np::ndarray
-    output_np_ = np::from_data((float*)output_cv_.data, // output_tensor_.data_ptr<float>(), //(float*)resized_mat.data, 
+    output_np_ = np::from_data((float*)output_cv_.data,  
                                np::dtype::get_builtin<float>(), 
-                               p::make_tuple(image_height_*image_width_), // p::make_tuple(input_height_*input_width_), // p::make_tuple(image_height_, image_width_), 
+                               p::make_tuple(image_height_*image_width_),  
                                p::make_tuple(sizeof(float)), 
                                p::object());
 
@@ -110,7 +110,7 @@ cv::Mat MiDas::inference(const cv::Mat &image)
 void MiDas::preprocessImage(uchar* image_p) // const np::ndarray &image
 {
     // Convert to cv::Mat
-    cv::Mat image_cv = cv::Mat(image_height_, image_width_, CV_8UC3, image_p); // reinterpret_cast<uchar*>(image.get_data()));
+    cv::Mat image_cv = cv::Mat(image_height_, image_width_, CV_8UC3, image_p); 
 
     // Resize the image
     cv::Mat input_cv;
