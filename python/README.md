@@ -2,7 +2,7 @@
 Before we can run the midascpp Boost.Python module or MiDaS-cpp, we need to convert the model to a torchscript model. To perform the conversion, we need to run the `export_model.py` script:
 
 ```shell
-python3 <MiDaS root folder> <pre-trained model file from MiDaS> <output filename>
+python3 export_model.py <MiDaS root folder> <pre-trained model file from MiDaS> <output filename>
 ```
 
 For example:
